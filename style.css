@@ -1,0 +1,85 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+#search {
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#recipes {
+  text-align: center;
+}
+
+#imageRecipe {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+#spandos {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+#ingredientList {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.ingredient {
+  display: block;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 5px; /* Añadido para agregar espacio entre los ingredientes */
+}
+
+#calories {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #e44d26; /* Color naranja, puedes cambiarlo según tu preferencia */
+}
