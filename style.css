@@ -1,16 +1,17 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f0f0f0;
 }
 
 main {
   max-width: 800px;
   margin: 20px auto;
+  background-color: #fff;
   padding: 20px;
-  background-color: #f8f8f8;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 section {
@@ -19,6 +20,7 @@ section {
 
 h1, h2 {
   color: #333;
+  text-align: center;
 }
 
 #search {
@@ -27,20 +29,21 @@ h1, h2 {
 
 input[type="text"] {
   padding: 10px;
-  width: 60%;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-right: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 5px;
 }
 
 button {
   padding: 10px 20px;
+  font-size: 16px;
   background-color: #4caf50;
   color: #fff;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -54,32 +57,25 @@ button:hover {
 #imageRecipe {
   max-width: 100%;
   height: auto;
+  margin-bottom: 15px;
   border-radius: 8px;
-  margin-top: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
 #spandos {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   color: #333;
 }
 
-#ingredientList {
-  display: block;
-  margin-top: 10px;
-  font-size: 16px;
-}
-
-.ingredient {
-  display: block;
-  font-style: italic;
+#ing, #ing2, #ing3, #ing4 {
   color: #555;
-  margin-bottom: 5px; /* Añadido para agregar espacio entre los ingredientes */
 }
 
-#calories {
-  display: block;
-  margin-top: 10px;
-  font-size: 16px;
-  color: #e44d26; /* Color naranja, puedes cambiarlo según tu preferencia */
-}
+/* Add more styles as needed */
